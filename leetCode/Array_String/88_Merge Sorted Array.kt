@@ -1,6 +1,18 @@
 package leetCode
 
-//Runtime : Beats 79.18%of users with Kotlin, Memory : Beats 72.98%of users with Kotlin
+/*
+* 입력: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+ 출력: [1,2,2,3,5,6]
+ 설명: 병합할 배열은 [1,2,3] 및 [2,5,6]입니다.
+병합의 결과는 [ 1 , 2 ,2, 3 ,5,6] 이며 밑줄 친 요소는 nums1에서 나옵니다.
+*
+* class Solution {
+    fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
+
+    }
+}
+*/
+
 private fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int) : Unit {
     var tail1 = m-1
     var tail2 = n-1
@@ -39,24 +51,6 @@ fun main() {
     //merge(긴 거, 수, 짧은 거, 수)
     merge(nums1, m, nums2, n)
 
-
-
-
-
-
 }
+
 */
-
-
-/*
-* 입력: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
- 출력: [1,2,2,3,5,6]
- 설명: 병합할 배열은 [1,2,3] 및 [2,5,6]입니다.
-병합의 결과는 [ 1 , 2 ,2, 3 ,5,6] 이며 밑줄 친 요소는 nums1에서 나옵니다.
-*
-* class Solution {
-    fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
-
-    }
-}
-* */
