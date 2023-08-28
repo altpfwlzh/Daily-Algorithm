@@ -4,16 +4,23 @@ import java.io.*
 import java.util.*
 
 class Solution {
+
     fun isPalindrome(s: String): Boolean {
         val regex : Regex = Regex("[^A-Za-z0-9]")
         val input : String = regex.replace(s, "").lowercase(Locale.getDefault())
+        var sP = 0
+        var eP = input.length - 1
 
-        for (i in 0 until input.length/2) {
-            if (input[i] != input[input.length -1 - i]) return false
+        while(sP < eP){
+            if (input[sP] != input[eP]) return false
+            sP++
+            eP--
         }
 
         return true
     }
+
+
 }
 
 private val br = BufferedReader(InputStreamReader(System.`in`))
