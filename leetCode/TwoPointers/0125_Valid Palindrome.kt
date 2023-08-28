@@ -1,4 +1,8 @@
 package leetCode.TwoPointers
+/*
+* 문제 및 설명 : https://yellow-shurup.tistory.com/entry/LeetCode0125Valid-PalindromeKotiln
+* */
+
 
 import java.io.*
 import java.util.*
