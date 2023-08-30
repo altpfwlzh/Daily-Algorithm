@@ -18,6 +18,10 @@ class LinkedListCycle {
 
 }
 
+class ListNode(val pos : Int) {
+    var next : ListNode? = null
+}
+
 
 private val br = BufferedReader(InputStreamReader(System.`in`))
 private val bw = BufferedWriter(OutputStreamWriter(System.out))
