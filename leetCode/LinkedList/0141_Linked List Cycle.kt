@@ -29,7 +29,7 @@ private val bw = BufferedWriter(OutputStreamWriter(System.out))
 fun main() {
 
 
-    val ans = LinkedListCycle().hasCycle(br.readLine())
+    val ans = LinkedListCycle().hasCycle(ListNode(br.readLine().toInt()))
 
     bw.write(ans.toString())
     bw.flush()
