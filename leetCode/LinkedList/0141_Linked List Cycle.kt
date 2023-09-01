@@ -18,7 +18,10 @@ class LinkedListCycle {
 
 }
 
-class ListNode(val pos : Int) {
+var li = ListNode(5)
+var v = li.num
+
+class ListNode(val num : Int) {
     var next : ListNode? = null
 }
 
