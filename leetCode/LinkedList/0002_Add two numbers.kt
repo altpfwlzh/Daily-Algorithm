@@ -4,7 +4,7 @@ package leetCode.LinkedList
 
 import java.io.*
 
-class Solution {
+class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         var tmp1: ListNode? = l1
         var tmp2: ListNode? = l2
@@ -41,10 +41,6 @@ class Solution {
 
         return ans.next
     }
-}
-
-class ListNode(val `val` : Int) {
-    var next : ListNode? = null
 }
 
 
