@@ -2,8 +2,27 @@ package leetCode.BinarySearch
 
 import java.io.*
 
-/*문제 및 설명 : */
+/*문제 및 설명 : https://yellow-shurup.tistory.com/entry/LeetCode0035Search-Insert-PositionKotilnBinarySearch*/
 
+
+class SearchInsertPosition {
+    fun searchInsert(nums: IntArray, target: Int): Int {
+        var left : Int = 0
+        var right : Int = nums.size - 1
+
+        while(left <= right) {
+            val mid = (left + right) / 2
+
+            if(nums[mid] == target) return mid
+            if(nums[mid] > target) right = mid - 1
+            if(nums[mid] < target) left = mid + 1
+        }
+
+        return left
+    }
+}
+
+/*
 
 class SearchInsertPosition {
     fun searchInsert(nums: IntArray, target: Int): Int {
@@ -15,6 +34,7 @@ class SearchInsertPosition {
     }
 }
 
+*/
 
 private val br = BufferedReader(InputStreamReader(System.`in`))
 private val bw = BufferedWriter(OutputStreamWriter(System.out))
