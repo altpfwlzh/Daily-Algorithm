@@ -1,4 +1,4 @@
-package leetCode.Trie
+package leetCode.Graph
 
 class Node {
     var `val` = 0

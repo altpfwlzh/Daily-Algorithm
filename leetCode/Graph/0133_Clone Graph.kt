@@ -1,6 +1,5 @@
 package leetCode.Graph
 
-import org.w3c.dom.Node
 
 class CloneGraph {
     private lateinit var memo: HashMap<Int, Node>
@@ -13,16 +12,12 @@ class CloneGraph {
     private fun recCloneGraph(node: Node?): Node? {
         if (node == null) return null //빈 리스트면 그대로 반환
         if (memo.containsKey(node.`val`)) return memo[node.`val`]
-        val copy = Node(node.`val`)
+        val copy = Node()
         memo[copy.`val`] = copy
-        for (neighbor in node.neighbors) {
-            copy.neighbors.add(recCloneGraph(neighbor))
+        for (neighbor in node.neighbors!!) {
+            copy.neighbors?.plus(recCloneGraph(neighbor))
         }
         return copy
     }
 }
 
-internal class Node {
-    var `val` = 0
-    var neighbors: List<Node>? = null
-}
