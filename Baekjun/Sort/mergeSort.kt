@@ -30,7 +30,4 @@ private fun sortByMerge(arr : IntArray, start : Int, last : Int) {
 private fun merge(arr : IntArray, start: Int, mid : Int, last: Int) {
     val leftArray : IntArray = arr.copyOfRange(start, mid)
     val rightArray : IntArray = arr.copyOfRange(mid + 1, last)
-
-
-
 }
