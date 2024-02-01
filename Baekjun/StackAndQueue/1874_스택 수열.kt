@@ -11,7 +11,6 @@ fun main() {
     val n: Int = br.readLine().toInt()
     val A: MutableList<Int> = mutableListOf()
     repeat(n){
-
         A.add(br.readLine().toInt())
     }
     val intStack: Stack<Int> = Stack<Int>()
