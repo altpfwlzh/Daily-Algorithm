@@ -4,8 +4,13 @@
 
 ## 개요
 * 언어 : **Kotlin**
-* 문제 사이트 : Programmars, Baekjun, LeetCode
-* 비고 : _[코틀린 coding guide](https://kotlinlang.org/docs/coding-conventions.html)_ 를 준수 합니다.
+* 문제 사이트 : Programmars(_pro_), Baekjun(_boj_), LeetCode(_let_)
+* 비고
+  * ✅ -> 추천 문제  
+  * ✏️ -> 다시 풀기
+  * ‼️ -> 고난도 문제    
+* LeetCode 문제는 ReadMe 문서 목록에 포함하지 않습니다.
+* _[코틀린 coding guide](https://kotlinlang.org/docs/coding-conventions.html)_ 를 준수 합니다.
 
 ---
 
@@ -39,7 +44,6 @@
 ### [🗂 투 포인터 & 슬라이딩 윈도우](./Contents/TwoPointer/)
 |사이트|문제|난이도|비고|
 |--|--|--|--|
-
 ---
 
 ## 정렬
