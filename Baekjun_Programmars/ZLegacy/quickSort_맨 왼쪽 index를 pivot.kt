@@ -1,3 +1,5 @@
+package Baekjun_Programmars.ZLegacy
+
 import java.util.*
 
 

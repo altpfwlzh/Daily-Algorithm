@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Sort
+package Baekjun_Programmars.ZLegacy
 
 //블로그 설명 : https://yellow-shurup.tistory.com/entry/%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Insertion-Sortkotlin
 

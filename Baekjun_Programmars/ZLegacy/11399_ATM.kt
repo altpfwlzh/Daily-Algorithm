@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Sort
+package Baekjun_Programmars.ZLegacy
 
 /*
 * 문제 및 설명 : https://yellow-shurup.tistory.com/entry/Baekjoon11399ATMKotlin%EA%B5%AC%EA%B0%84%ED%95%A9

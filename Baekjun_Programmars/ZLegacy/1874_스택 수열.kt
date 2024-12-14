@@ -1,4 +1,4 @@
-package Baekjun_Programmars.StackAndQueue
+package Baekjun_Programmars.ZLegacy
 
 import java.io.*
 import java.lang.StringBuilder

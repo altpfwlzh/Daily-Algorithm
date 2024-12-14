@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Sort
+package Baekjun_Programmars.ZLegacy
 
 //블로그 설명 : https://yellow-shurup.tistory.com/entry/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Selection-Sortkotlin
 
@@ -43,10 +43,3 @@ private fun getMinNumIndex(arr : IntArray, start : Int) : Int {
     //1_3. 찾는 index를 반환한다.
     return curMinNumIndex
 }
-
-private fun swap(arr : IntArray, idx1 : Int, idx2 : Int) {
-    val tmp : Int = arr[idx1]
-    arr[idx1] = arr[idx2]
-    arr[idx2] = tmp
-}
-

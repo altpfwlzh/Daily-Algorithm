@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Sort
+package Baekjun_Programmars.ZLegacy
 
 //블로그 설명 :
 
