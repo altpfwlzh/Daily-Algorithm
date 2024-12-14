@@ -1,4 +1,4 @@
-package Baekjun_Programmars.ZLegacy
+package Baekjun_Programmars.ZLegacy.Sort
 
 import java.util.*
 

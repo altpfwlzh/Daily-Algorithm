@@ -25,7 +25,7 @@ fun main() {
 private fun quickSort(A : IntArray, left: Int, right: Int, K : Int) {
 
     if(left < right){
-        val pivot : Int = partition(A, left, right)
+        val pivot : Int = Baekjun_Programmars.ZLegacy.Sort.partition(A, left, right)
         if(pivot == K){
             return
         }
@@ -42,7 +42,7 @@ private fun partition(A : IntArray, left : Int, right : Int) : Int {
     //데이터가 두 개인 경우 바로 비교하여 정렬한다.
     if(left + 1 == right){
         if(A[left] > A[right]) {
-            swap(A, left, right)
+            Baekjun_Programmars.ZLegacy.Sort.swap(A, left, right)
         }
         else {
             return right
@@ -52,7 +52,7 @@ private fun partition(A : IntArray, left : Int, right : Int) : Int {
     val mid : Int = (left + right) / 2
 
     //중간 pivot값을 시작 위치와 바꾸기
-    swap(A, left, mid)
+    Baekjun_Programmars.ZLegacy.Sort.swap(A, left, mid)
 
     //pivot값을 시작 위치 값으로 저장
     val pivot : Int = A[left]
@@ -70,7 +70,7 @@ private fun partition(A : IntArray, left : Int, right : Int) : Int {
         }
         //찾은 i와 j 원소를 swap
         if(i <= j){
-            swap(A, i++, j--)
+            Baekjun_Programmars.ZLegacy.Sort.swap(A, i++, j--)
         }
     }
 

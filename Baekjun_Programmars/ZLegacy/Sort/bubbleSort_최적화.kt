@@ -1,4 +1,4 @@
-package Baekjun_Programmars.ZLegacy
+package Baekjun_Programmars.ZLegacy.Sort
 
 //블로그 설명 : https://yellow-shurup.tistory.com/entry/%EB%B2%84%EB%B8%94-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EC%A0%81%ED%99%94Bubble-Sortkotlin
 
