@@ -1,4 +1,4 @@
-package Baekjun.Sort
+package ProgrammarsAndBaekjun.Sort
 
 /*
 * 문제 및 설명 : https://yellow-shurup.tistory.com/entry/Baekjoon1377%EB%B2%84%EB%B8%94-%EC%86%8C%ED%8A%B8KotlinBubble-Sort

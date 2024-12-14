@@ -1,4 +1,4 @@
-package Baekjun.StackAndQueue
+package ProgrammarsAndBaekjun.StackAndQueue
 
 import java.io.*
 import java.lang.StringBuilder

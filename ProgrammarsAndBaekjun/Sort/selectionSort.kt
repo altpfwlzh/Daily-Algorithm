@@ -1,4 +1,4 @@
-package Baekjun.Sort
+package ProgrammarsAndBaekjun.Sort
 
 //블로그 설명 : https://yellow-shurup.tistory.com/entry/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Selection-Sortkotlin
 
