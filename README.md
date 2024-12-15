@@ -37,7 +37,7 @@
 ### [🗂 누적합](./Baekjun_Programmars/PrefixSum)
 |사이트|문제|난도|비고|
 |--|--|--|--|
-|boj|[구간 합 구하기5](https://www.acmicpc.net/problem/11660)|실버1||
+|boj|[구간 합 구하기5](https://www.acmicpc.net/problem/11660)|S1||
 |BOJ|[슈퍼 마리오](https://www.acmicpc.net/problem/2851)|B1| |
 |BOJ|[주지수](https://www.acmicpc.net/problem/15724)|S1| |
 |BOJ|[이건 꼭 풀어야 해!](https://www.acmicpc.net/problem/17390)|S3| |
