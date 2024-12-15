@@ -4,7 +4,7 @@
 
 ## 개요
 * 언어 : **Kotlin**
-* 문제 사이트 : Programmars(_pro_), Baekjun(_boj_), LeetCode(_let_)
+* 문제 사이트 : Programmars(_PRO_), Baekjun(_BOJ_), LeetCode
 * 비고
   * ✅ -> 추천 문제  
   * ✏️ -> 다시 풀기
@@ -37,7 +37,7 @@
 ### [🗂 누적합](./Baekjun_Programmars/PrefixSum)
 |사이트|문제|난도|비고|
 |--|--|--|--|
-|boj|[구간 합 구하기5](https://www.acmicpc.net/problem/11660)|S1||
+|BOJ|[구간 합 구하기5](https://www.acmicpc.net/problem/11660)|S1||
 |BOJ|[슈퍼 마리오](https://www.acmicpc.net/problem/2851)|B1| |
 |BOJ|[주지수](https://www.acmicpc.net/problem/15724)|S1| |
 |BOJ|[이건 꼭 풀어야 해!](https://www.acmicpc.net/problem/17390)|S3| |
