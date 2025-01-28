@@ -13,10 +13,10 @@ private val bw = BufferedWriter(OutputStreamWriter(System.out))
 
 fun main() {
     val target: Int = br.readLine().toInt()
-    var left: Int = 1
-    var right: Int = 1
-    var sum: Int = 1
-    var resultCnt: Int = 1
+    var left = 1
+    var right = 1
+    var sum = 1
+    var resultCnt = 1
 
     while (right < (target / 2 + 1.5)) {
         if (sum == target) {
