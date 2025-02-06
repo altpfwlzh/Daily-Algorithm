@@ -60,6 +60,12 @@
 ### [🗂 정렬](./Baekjun_Programmars/Sort)
 |사이트|문제|난도|비고|
 |--|--|--|--|
+|PRO|[K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)|LV.1| |
+|PRO|[가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|LV.2| |
+|PRO|[H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|LV.2| |
+|BOJ|[센서](https://www.acmicpc.net/problem/2212)|Gold 5| |
+
+
 
 ---
 
