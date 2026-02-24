@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Simulation
+package Baekjun_Programmars.String
 
 private class Solution_new_id_recommend {
     fun solution(new_id: String): String {

@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Simulation
+package Baekjun_Programmars.String
 
 
 /*

@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Simulation
+package Baekjun_Programmars.String
 
 class Solution_create_odd_string_2 {
     fun solution(s: String): String {
