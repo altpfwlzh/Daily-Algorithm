@@ -8,16 +8,15 @@ package Baekjun_Programmars.Sort
         - 정렬
         - K번째 수 추출
 */
-
-class Solution {
+private class Solution_k_number_1 {
     fun solution(array: IntArray, commands: Array<IntArray>): IntArray {
-        var answer = IntArray(commands.size)
+        val answerArray = IntArray(commands.size)
 
-        for (i in commands.indices) {
-            val ansArr = array.sliceArray(IntRange(commands[i][0] - 1, commands[i][1] - 1)).sortedArray()
-            answer[i] = ansArr[commands[i][2] - 1]
+        for (i in commands.indices){
+            val slicedList = array.slice(commands[i][0] - 1..commands[i][1]).sorted()
+            answerArray[i] = slicedList[commands[i][2] - 1]
         }
 
-        return answer
+        return answerArray
     }
 }
