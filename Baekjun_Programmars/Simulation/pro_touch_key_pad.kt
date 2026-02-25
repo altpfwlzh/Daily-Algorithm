@@ -1,4 +1,4 @@
-package Baekjun_Programmars.Sort
+package Baekjun_Programmars.Simulation
 
 import kotlin.math.abs
 
